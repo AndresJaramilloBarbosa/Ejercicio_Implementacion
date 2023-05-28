@@ -1,6 +1,6 @@
 export class Categoria {
-    constructor(nombre) {
+    constructor(nombre, series) {
         this.nombre = nombre;
-        this.series = [];
+        this.series = series;
     }
 }

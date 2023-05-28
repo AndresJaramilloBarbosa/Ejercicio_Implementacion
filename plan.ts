@@ -1,11 +1,11 @@
-import { Plataforma } from "./plataforma"
+import { Plataforma } from "./plataforma.js"
 
 export class Plan{
     precio:number
-    plataforma:Plataforma
+    plataformas:Plataforma | null
 
     constructor(precio:number, plataforma:Plataforma){
         this.precio = precio
-        this.plataforma = plataforma
+        this.plataformas = plataforma
     }
 }

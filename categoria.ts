@@ -7,6 +7,5 @@ export class Categoria{
     constructor(nombre:string, series:Serie[]){
         this.nombre = nombre
         this.series = series
-
     }
 }
